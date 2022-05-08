@@ -1,0 +1,40 @@
+print(" Lucas mendonça ")
+
+print("Uma empresa de fornecimento de energia elétrica faz a leitura mensal dos medidores de consumo. Para cada consumidor, são digitados os seguintes dados: ")
+
+print("==============================================================================================") #quebra de linha.
+
+float(input("N do consumidor: "))  #digite o numero do consumidor.
+
+KWH = float(input("KWH consumidos por mês: "))  #digite o KWH mensal.
+
+a = float(input("Digite o código do consumidor: 1 para residencial,2 para comercial,3 industrial: ")) #digite o código do consumidor.
+
+
+if a == 1:
+  print( KWH*0.3 )
+elif a == 2:
+  print( KWH*0.5 )
+elif a == 3:
+  print( KWH*0.7 )
+
+
+print("O total de consumo para os três tipos de consumidor é: ")
+
+print(" Residencial: ",KWH*0.3)   #consumo total do consumidor 1.
+print(" Comercial: ",KWH*0.5)     #consumo total do consumidor 2.
+print(" Indústrial: ",KWH*0.7)    #consumo total do consumidor 3.
+
+print("A média de consumo dos tipos 1 e 2: ")
+print((KWH*0.3)+(KWH*0.5)/2)           #A soma dos KWH 1 e 2, divido por 2.
+
+print("=======================================================================")
+
+P1= str(input("digite o primeiro nome: "))                         #nome da primeira pessoa
+P2= str(input("digite o segundo nome: "))                          #nome da segunda pessoa
+
+idade1= float(input("digite a idade da primeira pessoa: "))        #idade da primeira pessoa
+idade2= float(input("digite a idade da segunda pessoa: "))         #idade da segunda pessoa
+
+sexo1= str(input("sexo da primeira pessoa(M ou F): "))             #sexo da primeira pessoa
+sexo2= str(input("sexo da segunda pessoa(M ou F): "))              #sexo da segunda pessoa
