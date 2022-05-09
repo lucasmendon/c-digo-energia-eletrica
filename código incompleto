@@ -38,3 +38,14 @@ idade2= float(input("digite a idade da segunda pessoa: "))         #idade da seg
 
 sexo1= str(input("sexo da primeira pessoa(M ou F): "))             #sexo da primeira pessoa
 sexo2= str(input("sexo da segunda pessoa(M ou F): "))              #sexo da segunda pessoa
+
+print("===============================================================================================")
+
+if idade1 >= 21 and sexo1 == "M" or sexo1 == "m" :    #se a idade for 21 ou mais e o sexo for M ele será aprovado.
+  print("aprovado")
+  
+elif idade1 >= 21 and sexo1 == "F" or sexo1 == "f" :  #se a idade for 21 ou mais e o sexo for feminino ele será reprovado.
+  print("reprovado")
+
+if idade2 >= 21 and sexo2 == "M" or sexo2 == "m" :    #se a idade for 21 ou mais e o sexo for M ele será aprovado.
+  print("aprovado")
